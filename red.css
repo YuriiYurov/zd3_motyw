@@ -1,0 +1,37 @@
+body {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div {
+    text-align: left;
+    color: gainsboro
+}
+
+h2 {
+    text-decoration: underline;
+    color: white
+}
+
+ul {
+    font-style: italic;
+    color: white
+}
+
+article {
+    color: blue;
+}

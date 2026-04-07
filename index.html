@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My new CV</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My new color CV</title>
+    <!-- <link rel="stylesheet" href="red.css"> -->
+    <link id="theme" rel="stylesheet" href="red.css">
+    <script>
+        setInterval(() => { theme.href = theme.href.includes("red.css") ? "green.css" : "red.css"; }, 3000);
+    </script>
 </head>
 
 <body>
